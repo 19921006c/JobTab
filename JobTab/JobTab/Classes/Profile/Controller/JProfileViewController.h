@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JProfileViewController.h
 //  JobTab
 //
 //  Created by silent on 16/3/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JProfileViewController : UIViewController
 
 @end
-
