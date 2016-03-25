@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		CB033BBE1CA53A60003D468D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB033BBD1CA53A60003D468D /* main.m */; };
 		CB033BC11CA53A60003D468D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB033BC01CA53A60003D468D /* AppDelegate.m */; };
-		CB033BC41CA53A60003D468D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB033BC31CA53A60003D468D /* ViewController.m */; };
-		CB033BC71CA53A60003D468D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB033BC51CA53A60003D468D /* Main.storyboard */; };
 		CB033BC91CA53A60003D468D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB033BC81CA53A60003D468D /* Assets.xcassets */; };
 		CB033BCC1CA53A60003D468D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB033BCA1CA53A60003D468D /* LaunchScreen.storyboard */; };
 		CB033BD71CA53A60003D468D /* JobTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB033BD61CA53A60003D468D /* JobTabTests.m */; };
 		CB033BE21CA53A60003D468D /* JobTabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB033BE11CA53A60003D468D /* JobTabUITests.m */; };
+		CB033C021CA53C14003D468D /* JMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB033C011CA53C14003D468D /* JMainTabBarController.m */; };
+		CB033C051CA53C38003D468D /* JMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB033C041CA53C38003D468D /* JMainNavigationController.m */; };
+		CB033C0E1CA53E5E003D468D /* JHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB033C0C1CA53E5E003D468D /* JHomeViewController.m */; };
+		CB033C0F1CA53E5E003D468D /* JHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB033C0D1CA53E5E003D468D /* JHomeViewController.xib */; };
+		CB033C131CA53E69003D468D /* JProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB033C111CA53E69003D468D /* JProfileViewController.m */; };
+		CB033C141CA53E69003D468D /* JProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB033C121CA53E69003D468D /* JProfileViewController.xib */; };
+		CB033C191CA542D6003D468D /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = CB033C181CA542D6003D468D /* UIImage+Image.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +42,8 @@
 /* Begin PBXFileReference section */
 		CB033BB91CA53A60003D468D /* JobTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB033BBD1CA53A60003D468D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CB033BBF1CA53A60003D468D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CB033BC01CA53A60003D468D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CB033BC21CA53A60003D468D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CB033BC31CA53A60003D468D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CB033BC61CA53A60003D468D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB033BBF1CA53A60003D468D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		CB033BC01CA53A60003D468D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		CB033BC81CA53A60003D468D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB033BCB1CA53A60003D468D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB033BCD1CA53A60003D468D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,18 @@
 		CB033BDD1CA53A60003D468D /* JobTabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobTabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB033BE11CA53A60003D468D /* JobTabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobTabUITests.m; sourceTree = "<group>"; };
 		CB033BE31CA53A60003D468D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB033C001CA53C14003D468D /* JMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMainTabBarController.h; sourceTree = "<group>"; };
+		CB033C011CA53C14003D468D /* JMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMainTabBarController.m; sourceTree = "<group>"; };
+		CB033C031CA53C38003D468D /* JMainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMainNavigationController.h; sourceTree = "<group>"; };
+		CB033C041CA53C38003D468D /* JMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMainNavigationController.m; sourceTree = "<group>"; };
+		CB033C0B1CA53E5E003D468D /* JHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHomeViewController.h; sourceTree = "<group>"; };
+		CB033C0C1CA53E5E003D468D /* JHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHomeViewController.m; sourceTree = "<group>"; };
+		CB033C0D1CA53E5E003D468D /* JHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHomeViewController.xib; sourceTree = "<group>"; };
+		CB033C101CA53E69003D468D /* JProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JProfileViewController.h; sourceTree = "<group>"; };
+		CB033C111CA53E69003D468D /* JProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JProfileViewController.m; sourceTree = "<group>"; };
+		CB033C121CA53E69003D468D /* JProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JProfileViewController.xib; sourceTree = "<group>"; };
+		CB033C171CA542D6003D468D /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		CB033C181CA542D6003D468D /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +115,7 @@
 		CB033BBB1CA53A60003D468D /* JobTab */ = {
 			isa = PBXGroup;
 			children = (
-				CB033BBF1CA53A60003D468D /* AppDelegate.h */,
-				CB033BC01CA53A60003D468D /* AppDelegate.m */,
-				CB033BC21CA53A60003D468D /* ViewController.h */,
-				CB033BC31CA53A60003D468D /* ViewController.m */,
-				CB033BC51CA53A60003D468D /* Main.storyboard */,
-				CB033BC81CA53A60003D468D /* Assets.xcassets */,
-				CB033BCA1CA53A60003D468D /* LaunchScreen.storyboard */,
-				CB033BCD1CA53A60003D468D /* Info.plist */,
+				CB033BEF1CA53B75003D468D /* Classes */,
 				CB033BBC1CA53A60003D468D /* Supporting Files */,
 			);
 			path = JobTab;
@@ -117,6 +124,9 @@
 		CB033BBC1CA53A60003D468D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB033BC81CA53A60003D468D /* Assets.xcassets */,
+				CB033BCA1CA53A60003D468D /* LaunchScreen.storyboard */,
+				CB033BCD1CA53A60003D468D /* Info.plist */,
 				CB033BBD1CA53A60003D468D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +148,139 @@
 				CB033BE31CA53A60003D468D /* Info.plist */,
 			);
 			path = JobTabUITests;
+			sourceTree = "<group>";
+		};
+		CB033BEF1CA53B75003D468D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB033BFC1CA53B9E003D468D /* Main */,
+				CB033BF01CA53B75003D468D /* Home */,
+				CB033BF41CA53B75003D468D /* Other */,
+				CB033BF81CA53B75003D468D /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CB033BF01CA53B75003D468D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CB033BF11CA53B75003D468D /* Controller */,
+				CB033BF21CA53B75003D468D /* Model */,
+				CB033BF31CA53B75003D468D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CB033BF11CA53B75003D468D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB033C0B1CA53E5E003D468D /* JHomeViewController.h */,
+				CB033C0C1CA53E5E003D468D /* JHomeViewController.m */,
+				CB033C0D1CA53E5E003D468D /* JHomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB033BF21CA53B75003D468D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB033BF31CA53B75003D468D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB033BF41CA53B75003D468D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CB033C161CA542C1003D468D /* Categore */,
+				CB033BBF1CA53A60003D468D /* AppDelegate.h */,
+				CB033BC01CA53A60003D468D /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CB033BF81CA53B75003D468D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CB033BF91CA53B75003D468D /* Controller */,
+				CB033BFA1CA53B75003D468D /* Model */,
+				CB033BFB1CA53B75003D468D /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CB033BF91CA53B75003D468D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB033C101CA53E69003D468D /* JProfileViewController.h */,
+				CB033C111CA53E69003D468D /* JProfileViewController.m */,
+				CB033C121CA53E69003D468D /* JProfileViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB033BFA1CA53B75003D468D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB033BFB1CA53B75003D468D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB033BFC1CA53B9E003D468D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CB033BFD1CA53B9E003D468D /* Controller */,
+				CB033BFE1CA53B9E003D468D /* Model */,
+				CB033BFF1CA53B9E003D468D /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CB033BFD1CA53B9E003D468D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB033C001CA53C14003D468D /* JMainTabBarController.h */,
+				CB033C011CA53C14003D468D /* JMainTabBarController.m */,
+				CB033C031CA53C38003D468D /* JMainNavigationController.h */,
+				CB033C041CA53C38003D468D /* JMainNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB033BFE1CA53B9E003D468D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB033BFF1CA53B9E003D468D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB033C161CA542C1003D468D /* Categore */ = {
+			isa = PBXGroup;
+			children = (
+				CB033C171CA542D6003D468D /* UIImage+Image.h */,
+				CB033C181CA542D6003D468D /* UIImage+Image.m */,
+			);
+			path = Categore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +345,7 @@
 		CB033BB11CA53A60003D468D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = J;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = joe;
 				TargetAttributes = {
@@ -243,9 +387,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB033C0F1CA53E5E003D468D /* JHomeViewController.xib in Resources */,
+				CB033C141CA53E69003D468D /* JProfileViewController.xib in Resources */,
 				CB033BCC1CA53A60003D468D /* LaunchScreen.storyboard in Resources */,
 				CB033BC91CA53A60003D468D /* Assets.xcassets in Resources */,
-				CB033BC71CA53A60003D468D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +415,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB033BC41CA53A60003D468D /* ViewController.m in Sources */,
+				CB033C0E1CA53E5E003D468D /* JHomeViewController.m in Sources */,
+				CB033C131CA53E69003D468D /* JProfileViewController.m in Sources */,
 				CB033BC11CA53A60003D468D /* AppDelegate.m in Sources */,
+				CB033C051CA53C38003D468D /* JMainNavigationController.m in Sources */,
+				CB033C191CA542D6003D468D /* UIImage+Image.m in Sources */,
+				CB033C021CA53C14003D468D /* JMainTabBarController.m in Sources */,
 				CB033BBE1CA53A60003D468D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,14 +457,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CB033BC51CA53A60003D468D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB033BC61CA53A60003D468D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CB033BCA1CA53A60003D468D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JobTab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = joe.JobTab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +565,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JobTab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = joe.JobTab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +639,7 @@
 				CB033BE81CA53A60003D468D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB033BE91CA53A60003D468D /* Build configuration list for PBXNativeTarget "JobTabTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +648,7 @@
 				CB033BEB1CA53A60003D468D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB033BEC1CA53A60003D468D /* Build configuration list for PBXNativeTarget "JobTabUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +657,7 @@
 				CB033BEE1CA53A60003D468D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

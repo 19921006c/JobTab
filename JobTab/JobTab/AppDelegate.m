@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "JMainTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // alloc window
+    UIWindow *window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    //set window root view controller
+    
+    //1. alloc viewController
+    JMainTabBarController *tabVc = [[JMainTabBarController alloc]init];
+    
+    window.rootViewController = tabVc;
+    
+    [window makeKeyAndVisible];
+    
+    self.window = window;
+    
     return YES;
 }
 
